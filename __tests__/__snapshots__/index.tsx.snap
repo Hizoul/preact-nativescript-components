@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Label Render: label render 1`] = `
+exports[`label render 1`] = `
 <label
   text="my text"
 />
