@@ -1,14 +1,10 @@
-import { FunctionalComponent } from "preact"
-import h from "../h"
-import { CallbackFunc, IMaybeChildren } from "../types"
-
+import { CallbackFunc } from "../types"
+import componentMaker from "./maker"
 export interface ILabel {
   text?: string
   onTextChanged?: CallbackFunc
 }
 
-const Label: FunctionalComponent<ILabel> = (props) => {
-  return h("label", props, props !== undefined ? props.children : null)
-}
+const Label = componentMaker<ILabel & any>("label")
 
 export default Label

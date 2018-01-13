@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`readme render 1`] = `
+<page>
+  <actionBar>
+    <stackLayout>
+      <label>
+        Custom Header
+      </label>
+    </stackLayout>
+    <actionItem
+      text="act"
+    />
+  </actionBar>
+  <stackLayout>
+    <label>
+      PageContent
+    </label>
+    <button
+      text="Button"
+    />
+  </stackLayout>
+</page>
+`;
