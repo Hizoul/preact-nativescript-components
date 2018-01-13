@@ -1,4 +1,3 @@
-import { Preact } from "preact-to-nativescript"
+import Label from "./components/label"
 
-
-console.log("using rollup ts" + typeof(Preact))
+export { Label }
