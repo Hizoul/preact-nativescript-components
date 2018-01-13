@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`readme render 1`] = `
+exports[`README Example Render: readme render 1`] = `
 <page>
   <actionBar>
     <stackLayout>
