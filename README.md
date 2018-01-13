@@ -10,15 +10,22 @@ You should mostly be able to import and use the NativeScript UI Components by na
 import application from "tns-core-modules/application"
 import { render } from "preact-to-nativescript"
 import {
-  Page, StackLayout, ScrollView, Label, ActionBar, ActionBarItem, Button
+  ActionBar, ActionItem, Button, Label, Page, ScrollView, StackLayout
 } from "preact-nativescript-components"
 
 application.start({
   create: () => {
     return render(
       <Page>
+        <ActionBar>
+          <StackLayout>
+            <Label>Custom Header</Label>
+          </StackLayout>
+          <ActionItem text="act" />
+        </ActionBar>
         <StackLayout>
           <Label>PageContent</Label>
+          <Button text="Button" />
         </StackLayout>
       </Page>
     )
