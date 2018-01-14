@@ -1,6 +1,6 @@
 {
   "name": "preact-nativescript-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "preact components for nativescript",
   "main": "dist/preact-nativescript-components.js",
   "author": "hizoul",
@@ -22,6 +22,11 @@
     "prepublish": "npm run build",
     "build": "./node_modules/.bin/rollup -c",
     "test": "./node_modules/.bin/jest --coverage --ci && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "typescript": {
+    "definition": "dist/index.d.ts"
   },
   "jest": {
     "transform": {

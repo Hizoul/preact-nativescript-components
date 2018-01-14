@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.3
+- fix typescript definition file not being loaded correctly
+
 ## 0.0.2
 - Export same components as listed in [preact-to-nativescript docs](https://rawgit.com/Hizoul/preact-to-nativescript/master/docs/_book/components.html)
 - Upgrade Dependencies
