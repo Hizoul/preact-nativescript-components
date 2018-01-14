@@ -1,12 +1,12 @@
 {
   "name": "preact-nativescript-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "preact components for nativescript",
   "main": "dist/preact-nativescript-components.js",
   "author": "hizoul",
   "license": "MIT",
   "dependencies": {
-    "preact-to-nativescript": "0.0.2"
+    "preact-to-nativescript": "0.0.3"
   },
   "devDependencies": {
     "@types/jest": "^22.0.1",
@@ -14,7 +14,7 @@
     "jest": "^22.0.6",
     "preact-render-to-json": "^3.6.6",
     "rollup": "^0.54.0",
-    "rollup-plugin-typescript2": "^0.9.0",
+    "rollup-plugin-typescript2": "^0.10.0",
     "ts-jest": "^22.0.1",
     "typescript": "^2.6.2"
   },
