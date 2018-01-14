@@ -1,7 +1,7 @@
 import componentMaker from "./maker"
 
-const SearchBar = componentMaker<any>("webView")
-const SegmentedBar = componentMaker<any>("htmlView")
+const SearchBar = componentMaker<any>("searchBar")
+const SegmentedBar = componentMaker<any>("segmentedBar")
 const SegmentedBarItem = componentMaker<any>("segmentedBarItem")
 
 export {

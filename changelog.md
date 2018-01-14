@@ -1,4 +1,9 @@
 # Changelog
+
+## 0.0.6
+- SearchBar and SegmentedBar rendered the wrong string
+- Improve Tests
+
 ## 0.0.5
 - package contained an obsolete dev typings def
 

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All Components rendered in one: all componts rendered in one 1`] = `
+<page>
+  <actionBar>
+    <stackLayout>
+      <label>
+        Custom Header
+      </label>
+    </stackLayout>
+    <actionItem
+      text="act"
+    />
+    <navigationButton
+      text="mybut"
+    />
+  </actionBar>
+  <stackLayout>
+    <activityIndicator />
+    <absoluteLayout />
+    <dockLayout />
+    <flexboxLayout />
+    <gridLayout />
+    <button />
+    <datePicker />
+    <htmlView />
+    <image />
+    <label />
+    <listPicker />
+    <listView />
+    <page />
+    <placeholder />
+    <progress />
+    <scrollView />
+    <searchBar />
+    <segmentedBar />
+    <segmentedBarItem />
+    <slider />
+    <switch />
+    <tabView />
+    <tabViewItem />
+    <textField />
+    <textView />
+    <timePicker />
+    <webView />
+    <wrapLayout />
+  </stackLayout>
+</page>
+`;
