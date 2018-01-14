@@ -1,4 +1,7 @@
 # Changelog
+## 0.0.4
+- Add forgotten SegmentedBarItem export to index
+- update dependencies
 
 ## 0.0.3
 - fix typescript definition file not being loaded correctly

@@ -1,12 +1,12 @@
 {
   "name": "preact-nativescript-components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "preact components for nativescript",
   "main": "dist/preact-nativescript-components.js",
   "author": "hizoul",
   "license": "MIT",
   "dependencies": {
-    "preact-to-nativescript": "0.0.3"
+    "preact-to-nativescript": "0.0.5"
   },
   "devDependencies": {
     "@types/jest": "^22.0.1",

@@ -32,7 +32,7 @@ export {
   Progress,
   ScrollView,
   SearchBar,
-  SegmentedBar,
+  SegmentedBar, SegmentedBarItem,
   Slider,
   Switch,
   TabView, TabViewItem,
