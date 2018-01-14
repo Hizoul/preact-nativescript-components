@@ -1,4 +1,7 @@
 # Changelog
+## 0.0.5
+- package contained an obsolete dev typings def
+
 ## 0.0.4
 - Add forgotten SegmentedBarItem export to index
 - update dependencies

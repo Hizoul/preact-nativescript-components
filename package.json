@@ -1,6 +1,6 @@
 {
   "name": "preact-nativescript-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "preact components for nativescript",
   "main": "dist/preact-nativescript-components.js",
   "author": "hizoul",
