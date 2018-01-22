@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.7
+- update dependencies
+
 ## 0.0.6
 - SearchBar and SegmentedBar rendered the wrong string
 - Improve Tests
