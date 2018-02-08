@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.7 & 0.0.7-1
+## 0.0.7 & 0.0.7-1 & 0.0.7-2
 - update dependencies
 
 ## 0.0.6
