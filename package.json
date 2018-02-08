@@ -1,22 +1,23 @@
 {
   "name": "preact-nativescript-components",
-  "version": "0.0.7",
+  "version": "0.0.7-1",
   "description": "preact components for nativescript",
   "main": "dist/preact-nativescript-components.js",
   "author": "hizoul",
   "license": "MIT",
   "dependencies": {
-    "preact-to-nativescript": "0.0.7-1"
+    "preact-to-nativescript": "0.0.8-1"
   },
   "devDependencies": {
-    "@types/jest": "^22.0.1",
+    "@types/jest": "^22.1.1",
     "coveralls": "^3.0.0",
-    "jest": "^22.1.4",
+    "jest": "^22.2.1",
+    "preact-nativescript-mock": "0.0.7",
     "preact-render-to-json": "^3.6.6",
-    "rollup": "^0.54.1",
-    "rollup-plugin-typescript2": "^0.10.0",
-    "ts-jest": "^22.0.1",
-    "typescript": "^2.6.2"
+    "rollup": "^0.55.3",
+    "rollup-plugin-typescript2": "^0.11.0",
+    "ts-jest": "^22.0.3",
+    "typescript": "^2.7.1"
   },
   "scripts": {
     "prepublish": "npm run build",
